@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script type="text/javascript" src="application.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css">
+	<title>Hot or Cold</title>
+</head>
+
+<body>
+	<div id="container">
+	   <div id="mainBox">
+          <h1>Hot or Cold?</h1>
+                <p>The computer has a secret number. Enter your guess below and keep trying until you get the correct answer. The computer will tell you if you're getting hotter or colder.</p>    
+         <div id="inputField">  
+		      <input id="input"></input>
+		      <button onclick="myFunction()"></button>
+                <p id="guessInstruction">Give it your best shot!</p>
+        </div>  
+        <div id="answerField">
+            <p id="NaN" class="hint">Please enter a number!</p>
+            <p id="sameGuess" class="hint">Oops, same guess. Enter a new one!</p>
+            <p id="correctAnswer" class="hint">Correct, you win!</p>
+            <p id="hotter" class="hint">You're getting hotter!</p>
+            <p id="colder" class="hint">You're getting colder</p>
+            <p id="wrong" class="hint">Wrong, try again</p>
+        </div>  
+	   </div>	
+	</div>
+</body>
